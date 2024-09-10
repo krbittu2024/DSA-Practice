@@ -19,7 +19,7 @@
 
 // int main(){
 //     deque<string> names={"himani", "bittu", "kumar", "sharma"};
-//     names.at(2)="love";
+//     names.at(2)="friend";
 //     cout<<names.at(2)<<endl;
 //     return 0;
 // }
@@ -33,7 +33,7 @@
 // int main(){
 //     deque<string> names={"himani", "bittu", "kumar", "sharma"};
 //     names.push_front("jaimatadi");
-//     names.push_back("loveyou");
+//     names.push_back("yoyo");
 //     for(string name:names){
 //         cout<<name<<endl;
 //     }

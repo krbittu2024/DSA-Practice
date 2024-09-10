@@ -80,7 +80,7 @@
 
 // int main() {
 //   vector<string> names = {"himani", "Bittu", "kumar", "sharma"};
-//   names.push_back("loves");
+//   names.push_back("friend");
   
 //   for (string name : names) {
 //     cout << name << "\n";
