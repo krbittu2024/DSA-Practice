@@ -350,3 +350,50 @@
 //     cout<<fact<<endl;
 //     return 0;
 // }
+
+// Q19->
+// #include<iostream>
+// #include<cmath>
+// using namespace std;
+
+// bool isPrime(int n){
+//     for(int i=2; i<=sqrt(n); i++){
+//         if(n%i==0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// int main(){
+//     int a,c;
+//     cin>>a>>c;
+//     for(int i=a; i<=c; i++){
+//         if(isPrime(i)){
+//             cout<<i<<endl;
+//         }
+//     }
+//     return 0;
+// }
+
+//Q20->
+// #include<iostream>
+// using namespace std;
+
+// void fibo(int n){
+//     int t1=0;
+//     int t2=1;
+//     int nextTerm;
+//     for(int i=1; i<=n; i++){
+//         cout<<t1<<endl;
+//         nextTerm = t1+t2;
+//         t1=t2;
+//         t2=nextTerm;
+//     }
+    
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     fibo(n);
+//     return 0;
+// }
