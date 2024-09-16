@@ -416,3 +416,151 @@
 // }
 
 // Q22->
+// #include<iostream>
+// using namespace std;
+// int fact(int n){
+//     int factorial = 1;
+//     for(int i=2; i<=n; i++){
+//         factorial = factorial * i;
+//     }
+//     return factorial;
+// }
+// int main(){
+//     int n,r;
+//     cin>>n>>r;
+//     int ans = fact(n)/(fact(r)*fact(n-r));
+//     cout<<ans<<endl;
+//     return 0;
+// }
+
+// Q23->
+// #include<iostream>
+// using namespace std;
+// int fact(int n){
+//     int factorial = 1;
+//     for(int i=2; i<=n; i++){
+//         factorial = factorial*i;
+//     }
+//     return factorial;
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<=i; j++){
+//             cout<<fact(i)/(fact(i-j)*fact(j));
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+// Q24->
+// #include<iostream>
+// #include<climits>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int arr[n];
+//     for(int i=0; i<n; i++){
+//         cin>>arr[i];
+//     }
+//     int maxNo = INT_MIN;
+//     int minNo = INT_MAX;
+//     for(int i=0; i<n; i++){
+//         maxNo = max(arr[i], maxNo);
+//         minNo = min(arr[i], minNo);
+//     }
+//     cout<<maxNo<<endl;
+//     cout<<minNo<<endl;
+    
+//     return 0;
+// }
+
+// Q25->
+// #include<iostream>
+// using namespace std;
+// int linearSearch(int n, int arr[], int key){
+//     for(int i=0; i<n; i++){
+//         if(arr[i] == key){
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     int arr[n];
+//     for(int i=0; i<n; i++){
+//         cin>>arr[i];
+//     }
+//     int key;
+//     cin>>key;
+//     cout<<linearSearch(n,arr,key)<<endl;
+//     return 0;
+// }
+
+// Q26->
+// #include<iostream>
+// using namespace std;
+// int binarySearch(int n, int arr[], int key){
+//     int s=0;
+//     int e=n;
+//     while(s<=e){
+//         int mid =(s+e)/2;
+//         if(arr[mid]==key){
+//             return mid;
+//         }else if(arr[mid]>key){
+//             e=mid-1;
+//         }else if(arr[mid]<key){
+//             s=mid+1;
+//         }
+//     }
+    
+//     return -1;
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     int arr[n];
+//     for(int i=0; i<n; i++){
+//         cin>>arr[i];
+//     }
+//     int key;
+//     cin>>key;
+//     cout<<binarySearch(n,arr,key)<<endl;
+//     return 0;
+// }
+
+// Q27->
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string str1;
+//     getline(cin,str1);
+//     string str2;
+//     getline(cin,str2);
+//     cout<<str2.append(str1)<<endl;
+//     return 0;
+// }
+
+// Q28->
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string str;
+//     getline(cin,str);
+//    for(int i=0; i<str.size(); i++){
+//        if(str[i]>='a' && str[i]<='z'){
+//            str[i]=str[i]-32;
+//        }
+       
+//    }
+//    cout<<str<<endl;
+    
+//     return 0;
+// }
