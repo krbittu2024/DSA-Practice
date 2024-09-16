@@ -564,3 +564,83 @@
     
 //     return 0;
 // }
+
+// Q29->
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string str;
+//     getline(cin,str);
+//    for(int i=0; i<str.size(); i++){
+//        if(str[i]>='A' && str[i]<='Z'){
+//            str[i]=str[i]+32;
+//        }
+       
+//    }
+//    cout<<str<<endl;
+    
+//     return 0;
+// }
+
+// Q30->
+// #include<iostream>
+// #include<algorithm>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string str;
+//     getline(cin,str);
+    
+//    sort(str.begin(), str.end());
+//    cout<<str<<endl;
+    
+//     return 0;
+// }
+
+// Q31->
+// #include<iostream>
+// #include<algorithm>
+// #include<string>
+// using namespace std;
+// int main(){
+//     string str;
+//     getline(cin,str);
+//     transform(str.begin(), str.end(), str.begin(),::toupper);
+//     cout<<str<<endl;
+//      transform(str.begin(), str.end(), str.begin(),::tolower);
+//     cout<<str<<endl;
+    
+//     return 0;
+// }
+
+// Q32->
+// #include<iostream>
+// #include<string>
+// #include<algorithm>
+// using namespace std;
+// int main(){
+//     string str;
+//     getline(cin, str);
+//     sort(str.begin(),str.end(), greater<int>());
+//     cout<<str<<endl;
+//     return 0;
+// }
+
+// Q33->
+// #include<iostream>
+// #include<string>
+
+// using namespace std;
+// int main(){
+//     string str="iloveyou";
+//     getline(cin, str);
+   
+//     for(int i=str.size(); i>=0; i--){
+//       cout<<str[i];  
+//     }
+    
+//     return 0;
+// }
+
+// Q34->
