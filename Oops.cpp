@@ -275,3 +275,52 @@
 //     cout<<hero.bonus<<endl;
 //     return 0;
 // }
+
+//    Polymorphism  :-
+// #include<iostream>
+// using namespace std;
+// class Animal{
+//     public:
+//         void animalSound(){
+//             cout<<"The animal makes a sound "<<endl;
+//         }
+// };
+
+// class pig: public Animal{
+//     public:
+//         void animalSound(){
+//             cout<<"sound like pww pwww"<<endl;
+//         }
+// };
+
+// class dog: public Animal{
+//     public:
+//         void animalSound(){
+//             cout<<"sound like bhow bhow"<<endl;
+//         }
+// };
+// int main(){
+//     Animal myAnimal;
+//     pig myPig;
+//     dog myDog;
+//     myAnimal.animalSound();
+//     myPig.animalSound();
+//     myDog.animalSound();
+//     return 0;
+// }
+
+//    Display Current Date and Time  :-
+// #include <iostream>
+// #include <ctime>  // Import the ctime library
+// using namespace std;
+ 
+// int main () {
+//   // Get the timestamp for the current date and time
+//   time_t timestamp;
+//   time(&timestamp);
+
+//   // Display the date and time represented by the timestamp
+//   cout << ctime(&timestamp);
+//   return 0;
+// }
+
